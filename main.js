@@ -2,12 +2,34 @@ let data;
 let temaActual = null;
 let indiceDetalle = 0;
 
-fetch('temas/quimica.json')
+fetch('temas/ia.json')
     .then(response => response.json())
     .then(json => {
         data = json;
+        generarBotones();
+        actualizarDialogoInicial();
     })
     .catch(error => console.error('Error al cargar el JSON:', error));
+
+function generarBotones() {
+    const opcionesContainer = document.querySelector('.opciones');
+    if (data && data.opciones) {
+        Object.keys(data.opciones).forEach(tema => {
+            const boton = document.createElement('button');
+            boton.classList.add('btn', 'btn-primary');
+            boton.textContent = tema.charAt(0).toUpperCase() + tema.slice(1);  // Capitaliza la primera letra
+            boton.onclick = () => seleccionarTema(tema);
+            opcionesContainer.appendChild(boton);
+        });
+    }
+}
+
+function actualizarDialogoInicial() {
+    const dialogo = document.getElementById("dialogo");
+    if (data && data.text) {
+        dialogo.innerHTML = `<p>${data.text}</p>`;
+    }
+}
 
 function seleccionarTema(tema) {
     temaActual = tema;
