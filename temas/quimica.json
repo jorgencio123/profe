@@ -1,0 +1,68 @@
+{
+    "text": "Bienvenido al curso de química. Por favor, elige lo que quieres aprender.",
+    "opciones": {
+        "atomo": {
+            "descripcion": "El átomo es la unidad fundamental de la materia, compuesto por partículas subatómicas.",
+            "detalles": [
+                ["¿Qué es un átomo?", "Un átomo es la unidad básica de la materia y está compuesto por partículas subatómicas: protones, neutrones y electrones."],
+                ["Los electrones", "Tienen carga negativa, se encuentran en la corteza del átomo y se disponen en niveles de energía."],
+                ["Los protones", "Tienen carga positiva y están en el núcleo del átomo. El número de protones define el elemento químico."],
+                ["Los neutrones", "No tienen carga y están en el núcleo junto con los protones. Juegan un papel crucial en la estabilidad del átomo."],
+                ["Número atómico", "El número atómico es el número de protones en el núcleo de un átomo, lo que determina el elemento químico y sus propiedades."],
+                ["Isótopos", "Son átomos del mismo elemento con el mismo número de protones, pero diferente número de neutrones, lo que altera su masa."],
+                ["Configuración electrónica", "Es la disposición de los electrones en los distintos niveles de energía de un átomo."],
+                ["Teoría cuántica del átomo", "Los electrones no siguen órbitas fijas, sino que existen en zonas de alta probabilidad llamadas orbitales."]
+            ]
+        },
+        "tabla_periodica": {
+            "descripcion": "La tabla periódica organiza los elementos según sus propiedades y número atómico.",
+            "detalles": [
+                ["¿Qué es la tabla periódica?", "Es una organización de los elementos químicos basada en sus propiedades periódicas y en su número atómico."],
+                ["Grupos y periodos", "Las columnas son grupos (con propiedades similares), y las filas son periodos (que indican niveles de energía)."],
+                ["Metales y no metales", "Los metales, que son buenos conductores de electricidad, están en la izquierda, y los no metales, que son aislantes, están en la derecha."],
+                ["Elementos representativos", "Son los elementos que se encuentran en los grupos 1, 2 y 13-18, y suelen tener configuraciones electrónicas más sencillas."],
+                ["Elementos de transición", "Son los elementos de los grupos 3-12, y se caracterizan por tener electrones en subniveles d."],
+                ["Lantánidos y actínidos", "Son dos series de elementos situadas debajo de la tabla periódica, que incluyen metales raros y radiactivos."],
+                ["Propiedades periódicas", "Entre las propiedades que varían periódicamente se encuentran la electronegatividad, el radio atómico, la energía de ionización y la afinidad electrónica."],
+                ["Ley periódica", "La ley periódica establece que las propiedades de los elementos son funciones periódicas de sus números atómicos."]
+            ]
+        },
+        "enlace_quimico": {
+            "descripcion": "Los átomos se unen mediante enlaces químicos para formar moléculas o compuestos.",
+            "detalles": [
+                ["¿Qué es un enlace químico?", "Es la interacción entre átomos que permite la formación de moléculas y compuestos. Los enlaces pueden implicar la transferencia o compartición de electrones."],
+                ["Enlace iónico", "Ocurre cuando un átomo cede electrones a otro, creando iones con carga opuesta que se atraen electrostáticamente. Generalmente entre un metal y un no metal."],
+                ["Enlace covalente", "Se da cuando dos átomos no metálicos comparten electrones para completar sus capas de valencia."],
+                ["Enlace metálico", "Es la fuerza de atracción entre los átomos metálicos, que comparten una 'nube' de electrones móviles, lo que les da propiedades como la conductividad."],
+                ["Polaridad", "Un enlace es polar cuando los átomos tienen electronegatividades diferentes, lo que genera una distribución desigual de carga."],
+                ["Enlace coordinado", "Es un tipo de enlace covalente en el que ambos electrones compartidos provienen de un solo átomo."],
+                ["Enlaces múltiples", "Los enlaces dobles y triples son tipos de enlaces covalentes en los que se comparten más de un par de electrones entre los átomos."]
+            ]
+        },
+        "reacciones_quimicas": {
+            "descripcion": "Las reacciones químicas implican la transformación de sustancias a través de la ruptura y formación de enlaces químicos.",
+            "detalles": [
+                ["¿Qué es una reacción química?", "Es un proceso donde se transforman sustancias iniciales (reactivos) en sustancias finales (productos) mediante la ruptura y formación de enlaces."],
+                ["Tipos de reacciones", "Las principales reacciones químicas son: síntesis, descomposición, desplazamiento, combustión, acidificación, entre otras."],
+                ["Ley de conservación de la masa", "En una reacción química, la masa total de los reactivos es igual a la masa total de los productos. La materia no se crea ni se destruye."],
+                ["Velocidad de reacción", "La velocidad de una reacción depende de factores como la concentración de los reactivos, la temperatura, la presión y la presencia de catalizadores."],
+                ["Equilibrio químico", "El equilibrio químico ocurre cuando las velocidades de las reacciones directa e inversa son iguales, y las concentraciones de reactivos y productos permanecen constantes."],
+                ["Reacciones exotérmicas y endotérmicas", "Las reacciones exotérmicas liberan energía (calor), mientras que las endotérmicas requieren energía para ocurrir."],
+                ["Cinetica química", "La cinética química estudia las velocidades de las reacciones y los factores que las afectan."]
+            ]
+        },
+        "acidos_y_bases": {
+            "descripcion": "Ácidos y bases son sustancias con propiedades opuestas, con un comportamiento muy importante en la química.",
+            "detalles": [
+                ["¿Qué es un ácido?", "Es una sustancia que, al disolverse en agua, libera protones (H+). Los ácidos tienen un pH menor que 7."],
+                ["¿Qué es una base?", "Es una sustancia que acepta protones (H+) o libera iones hidróxido (OH-) en solución acuosa. Las bases tienen un pH mayor que 7."],
+                ["Escala de pH", "La escala de pH mide la acidez o basicidad de una solución, y varía de 0 (muy ácido) a 14 (muy básico), siendo 7 neutro."],
+                ["Ácidos fuertes y débiles", "Los ácidos fuertes se disocian completamente en agua, mientras que los débiles se disocian solo parcialmente."],
+                ["Neutralización", "Es una reacción entre un ácido y una base que produce agua y una sal. Esta reacción es exoterma."],
+                ["Teoría de Arrhenius", "Según esta teoría, los ácidos son sustancias que liberan H+ en solución acuosa, y las bases liberan OH-."],
+                ["Teoría de Bronsted-Lowry", "Los ácidos son donadores de protones y las bases son aceptores de protones."],
+                ["Teoría de Lewis", "Un ácido es un aceptador de un par de electrones, mientras que una base es un donador de un par de electrones."]
+            ]
+        }
+    }
+}
